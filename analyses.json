@@ -32,14 +32,6 @@
     "cover": "images/tale_of_genji.jpg"
   },
   {
-    "title": "Ramayana",
-    "author": "Valmiki",
-    "lens": "Archetypal Lens",
-    "analysis": "The commitment to righteousness and the loyalty to his partner throughout the hero's journey is what got my attention in this story. Especially now when most people chooses to cheat, and do selfish things because it's easier to do than do anything good, We can all use Rama as inspiration and learn from his devotion and Sita's loyalty.",
-    "color": "#385d4c",
-    "cover": "images/ramayana.jpg"
-  },
-  {
     "title": "The Odyssey",
     "author": "Homer",
     "lens": "Structuralist & Psychoanalytic Lens",
@@ -62,13 +54,5 @@
     "analysis": "Perseverance and Faith are something we can all learn from Job especially these times. How Job stayed faithful and strong-willed is an inspiration to us Filipinos to keep going during the challenges sent our way.",
     "color": "#344c66",
     "cover": "images/job.jpg"
-  },
-  {
-    "title": "Psalm 91",
-    "author": "",
-    "lens": "Formalist & Psychoanalytic Lens",
-    "analysis": "Especially us Filipinos, we  can relate to it because we can persevere no matter how many problems we face. We remain hopeful and faithful ('In God in whom I trust'). With our faith, we can be rest assured that 'He will command his angels concerning you to guard you in all your ways.'",
-    "color": "#762f35",
-    "cover": "images/psalm_91.jpg"
   }
 ]
