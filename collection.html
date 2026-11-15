@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b3039">
+  <meta name="description"
+    content="A Great Books course portfolio: literary analyses, a favorite masterpiece, and reflections on a reader's journey.">
+  <title>My Shelf | Great Books Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="topline"><a href="index.html"><span>GREAT BOOKS · COURSE PORTFOLIO</span></a></div>
+
+  <nav class="site-nav" aria-label="Portfolio sections">
+    <a href="index.html"><span>Me</span></a>
+    <a href="collection.html" aria-current="page"><span>Collection</span></a>
+    <a href="favorite.html"><span>Favorite</span></a>
+    <a href="learning.html"><span>Learning</span></a>
+    <a href="reflection.html"><span>Reflection</span></a>
+  </nav>
+
+  <main>
+    <section class="collection section" id="analyses">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">Collection</p>
+          <h1 class="page-title">My Shelf</h1>
+          <p class="section-intro">Choose and click a cover to see my analysis and reflection on that literature.</p>
+        </div>
+        <div class="shelf" id="shelf" role="group" aria-label="Select one of eight literary analyses"></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="reading-card" id="reading" aria-labelledby="reading-title">
+    <button class="reading-close" type="button" aria-label="Close analysis">×</button>
+    <div class="reading-content" id="reading-content"></div>
+  </dialog>
+
+  <footer>
+    <div class="wrap footer-inner"><span>Great Books Portfolio</span><a>Martin Lorenz S. Fajardo</a></div>
+  </footer>
+
+  <script>
+    fetch('analyses.json')
+      .then(response => {
+        if (!response.ok) throw new Error('Could not load analyses.json');
+        return response.json();
+      })
+      .then(analyses => {
+    const shelf = document.getElementById('shelf'), reading = document.getElementById('reading');
+    const readingContent = document.getElementById('reading-content');
+    let activeIndex = -1;
+    function openAnalysis(index) {
+      const b = analyses[index];
+      activeIndex = index;
+      [...shelf.querySelectorAll('.book-cover')].forEach((button, i) => button.setAttribute('aria-pressed', i === index ? 'true' : 'false'));
+      readingContent.innerHTML = `<div class="reading-meta"><span class="eyebrow">Great Book ${String(index + 1).padStart(2, '0')}</span><h2 id="reading-title">${b.title}</h2><p>${b.author}</p></div><div class="reading-text"><p class="lens">${b.lens}</p><p>${b.analysis}</p></div>`;
+      if (!reading.open) reading.showModal();
+    }
+    analyses.forEach((book, index) => {
+      if (index % 4 === 0) {
+        const row = document.createElement('div');
+        row.className = 'shelf-row';
+        row.setAttribute('role', 'group');
+        row.setAttribute('aria-label', `Books ${index + 1} to ${Math.min(index + 4, analyses.length)}`);
+        shelf.append(row);
+      }
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'book-cover';
+      button.setAttribute('aria-pressed', 'false');
+      button.setAttribute('aria-label', `Read analysis ${index + 1}: ${book.title} by ${book.author}`);
+      const cover = document.createElement('img');
+      cover.src = book.cover;
+      cover.alt = '';
+      cover.loading = 'lazy';
+      button.append(cover);
+      button.addEventListener('click', () => openAnalysis(index));
+      shelf.lastElementChild.append(button);
+    });
+    reading.querySelector('.reading-close').addEventListener('click', () => reading.close());
+    reading.addEventListener('click', event => {
+      if (event.target === reading) reading.close();
+    });
+    reading.addEventListener('close', () => {
+      if (activeIndex >= 0) shelf.querySelectorAll('.book-cover')[activeIndex]?.setAttribute('aria-pressed', 'false');
+      activeIndex = -1;
+    });
+      })
+      .catch(error => {
+        document.getElementById('shelf').textContent = 'The book analyses could not be loaded.';
+        console.error(error);
+      });
+  </script>
+</body>
+
+</html>

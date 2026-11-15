@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Panchatantra (Book 4 & 5)",
+    "author": "Pandit Vishnu Sharma",
+    "lens": "Formalist & Psychoanalytic Lens",
+    "analysis": "For book 4, we've all probably been in those situations where we know one wrong move can ruin everything. This story is something I thought is similar because it reminds us that in times of pressure, all we have to do is remain calm and think critically. Because your actions defines what happens next wether it's small or big outcome. As for the book 5, practically the same. It talks about actions. But this story also talks about the consequences. It reminds us to think twice before our decisions. We can't always assume everything and act on impulse because we can never undo our actions, we can only live with the regret.",
+    "color": "#762f35",
+    "cover": "images/panchatantra.jpg"
+  },
+  {
+    "title": "Song of Roland",
+    "author": "Turold",
+    "lens": "Formalist & Psychoanalytic Lens",
+    "analysis": "Pride is a sickness that everyone experiences. But this guy Roland is worse LOL. He basically got all their soldiers killed because he was too prideful to call for help and by the time he asked for a backup, it was already too late. Same can be said with Ganelon's betrayal, which led to his own execution. I think this story is a good reminder that we should always be humble and not let our pride get in the way of our decisions.",
+    "color": "#68577a",
+    "cover": "images/song_of_roland.jpg"
+  },
+  {
+    "title": "The Iliad (Book 1-3)",
+    "author": "Homer",
+    "lens": "Feminist, Psychoanalytic, & Archetypal Lens",
+    "analysis": "The politics on this one is heavy. Just like today, the geopolitics in the story is because of selfishness and lack of empathy. It reminds me of our leaders that tends to save themselves, prioritize ego, and political gain instead of focusing on the well-being of the ordinary people like us. The 'women as trophy' mentality is also something that is still present today. It is sad to see how women are still treated as objects and not as human beings.",
+    "color": "#815735",
+    "cover": "images/iliad.webp"
+  },
+  {
+    "title": "The tale of Genji",
+    "author": "Murasaki Shikibu",
+    "lens": "Feminist, Marxist, & Psychoanalytic Lens",
+    "analysis": "The gender inequality in this stopry is severe, the same with social class and having a privilege. Something we can relate to in our time. It talks not just about Genji but also about society, and how everything is temporary, and that these issues are constant. Because even after the story shifted its focus to the new generation, the same problems still existed. We can never get rid of negativity, only learn to live above it.",
+    "color": "#735b32",
+    "cover": "images/tale_of_genji.jpg"
+  },
+  {
+    "title": "Ramayana",
+    "author": "Valmiki",
+    "lens": "Archetypal Lens",
+    "analysis": "The commitment to righteousness and the loyalty to his partner throughout the hero's journey is what got my attention in this story. Especially now when most people chooses to cheat, and do selfish things because it's easier to do than do anything good, We can all use Rama as inspiration and learn from his devotion and Sita's loyalty.",
+    "color": "#385d4c",
+    "cover": "images/ramayana.jpg"
+  },
+  {
+    "title": "The Odyssey",
+    "author": "Homer",
+    "lens": "Structuralist & Psychoanalytic Lens",
+    "analysis": "Another story that highlights loyalty, perserverance, and Family- something all of us Filipinos can relate to. It is really moving to see Penelope not losing hope, Telemachu's devotion, and Odysseus' perserverance and will to come home to his family.",
+    "color": "#42494a",
+    "cover": "images/odyssey.jpg"
+  },
+  {
+    "title": "Mahabharata",
+    "author": "Sage Vyasa",
+    "lens": "Psychoanalytic Lens",
+    "analysis": "Jealousy is a powerful force that can destroy people. In this case, family and kingdom. It can start conflicts within families and can lead to family members hurting each other based out of loyalty. It also reminds us that victories are not easily gained. It can come with heavy costs and difficult choices.",
+    "color": "#735b32",
+    "cover": "images/mahabharata.avif"
+  },
+  {
+    "title": "Voice out of the Whirlwind",
+    "author": "Ralph E. Hone",
+    "lens": "Formalist & Psychoanalytic Lens",
+    "analysis": "Perseverance and Faith are something we can all learn from Job especially these times. How Job stayed faithful and strong-willed is an inspiration to us Filipinos to keep going during the challenges sent our way.",
+    "color": "#344c66",
+    "cover": "images/job.jpg"
+  },
+  {
+    "title": "Psalm 91",
+    "author": "",
+    "lens": "Formalist & Psychoanalytic Lens",
+    "analysis": "Especially us Filipinos, we  can relate to it because we can persevere no matter how many problems we face. We remain hopeful and faithful ('In God in whom I trust'). With our faith, we can be rest assured that 'He will command his angels concerning you to guard you in all your ways.'",
+    "color": "#762f35",
+    "cover": "images/psalm_91.jpg"
+  }
+]
