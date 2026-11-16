@@ -432,6 +432,12 @@ dd {
     margin-bottom: 0
 }
 
+.analysis-label {
+    font: 15px Georgia, serif;
+    font-weight: 600;
+    margin: 20px 0 10px 0
+}
+
 .lens {
     font: italic 15px Georgia, serif;
     color: var(--red);

@@ -63,7 +63,7 @@
       const b = analyses[index];
       activeIndex = index;
       [...shelf.querySelectorAll('.book-cover')].forEach((button, i) => button.setAttribute('aria-pressed', i === index ? 'true' : 'false'));
-      readingContent.innerHTML = `<div class="reading-meta"><span class="eyebrow">Great Book ${String(index + 1).padStart(2, '0')}</span><h2 id="reading-title">${b.title}</h2><p>${b.author}</p></div><div class="reading-text"><p class="lens">${b.lens}</p><p>${b.analysis}</p></div>`;
+      readingContent.innerHTML = `<div class="reading-meta"><span class="eyebrow">Great Book ${String(index + 1).padStart(2, '0')}</span><h2 id="reading-title">${b.title}</h2><p>${b.author}</p></div><div class="reading-text"><p class="analysis-label">About:</p><p>${b.about}</p><p class="analysis-label">Lens:</p><p class="lens">${b.lens}</p><p class="analysis-label">My thoughts:</p><p>${b.analysis}</p></div>`;
       if (!reading.open) reading.showModal();
     }
     analyses.forEach((book, index) => {

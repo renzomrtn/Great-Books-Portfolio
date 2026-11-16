@@ -1,15 +1,17 @@
 [
   {
-    "title": "Panchatantra (Book 4 & 5)",
+    "title": "The Panchatantra (Book 4 & 5)",
     "author": "Pandit Vishnu Sharma",
+    "about": "Book 4 (Loss of Gains): Framed around a monkey and a crocodile, these tales warn how greed, gullibility, and misplaced trust can cause someone to forfeit hard-won success or safety. Book 5 (Ill-Considered Action): Centered on a tragic misunderstanding between a Brahmin and a loyal mongoose, these fables illustrate the irreversible consequences of acting rashly in anger or panic without verifying the facts first.",
     "lens": "Formalist & Psychoanalytic Lens",
     "analysis": "For book 4, we've all probably been in those situations where we know one wrong move can ruin everything. This story is something I thought is similar because it reminds us that in times of pressure, all we have to do is remain calm and think critically. Because your actions defines what happens next wether it's small or big outcome. As for the book 5, practically the same. It talks about actions. But this story also talks about the consequences. It reminds us to think twice before our decisions. We can't always assume everything and act on impulse because we can never undo our actions, we can only live with the regret.",
     "color": "#762f35",
     "cover": "images/panchatantra.jpg"
   },
   {
-    "title": "Song of Roland",
+    "title": "The Song of Roland",
     "author": "Turold",
+    "about": "The oldest surviving major work of French literature, this 11th-century chanson de geste (song of heroic deeds) is loosely based on the Battle of Roncevaux Pass in 778 AD. Betrayed by his stepfather Ganelon, Roland—commander of Charlemagne’s rearguard—refuses out of pride to blow his ivory horn for reinforcements until it is too late, resulting in a heroic last stand that celebrates Christian chivalry, feudal loyalty, and martyrdom.",
     "lens": "Formalist & Psychoanalytic Lens",
     "analysis": "Pride is a sickness that everyone experiences. But this guy Roland is worse LOL. He basically got all their soldiers killed because he was too prideful to call for help and by the time he asked for a backup, it was already too late. Same can be said with Ganelon's betrayal, which led to his own execution. I think this story is a good reminder that we should always be humble and not let our pride get in the way of our decisions.",
     "color": "#68577a",
@@ -18,14 +20,16 @@
   {
     "title": "The Iliad (Book 1-3)",
     "author": "Homer",
+    "about": "Set during the final year of the ten-year Trojan War, this ancient Greek epic poem centers on the wrath of the Greek warrior Achilles after King Agamemnon strips him of his war prize. Achilles' withdrawal from battle allows the Trojan forces, led by Hector, to push the Greeks to the brink of defeat, exploring themes of pride, mortality, honor, and the brutal reality of warfare.",
     "lens": "Feminist, Psychoanalytic, & Archetypal Lens",
     "analysis": "The politics on this one is heavy. Just like today, the geopolitics in the story is because of selfishness and lack of empathy. It reminds me of our leaders that tends to save themselves, prioritize ego, and political gain instead of focusing on the well-being of the ordinary people like us. The 'women as trophy' mentality is also something that is still present today. It is sad to see how women are still treated as objects and not as human beings.",
     "color": "#815735",
     "cover": "images/iliad.webp"
   },
   {
-    "title": "The tale of Genji",
+    "title": "The Tale of Genji",
     "author": "Murasaki Shikibu",
+    "about": "Often considered the world’s first psychological novel, this 11th-century Japanese masterpiece follows the life, political intrigues, and romantic entanglements of Hikaru Genji ('Shining Genji'), the handsome and gifted son of an emperor who is demoted to commoner status. Spanning decades of Heian-period court life, it captures the refinement of aristocratic culture alongside the fleeting, bittersweet nature of beauty, love, and aging (mono no aware).",
     "lens": "Feminist, Marxist, & Psychoanalytic Lens",
     "analysis": "The gender inequality in this stopry is severe, the same with social class and having a privilege. Something we can relate to in our time. It talks not just about Genji but also about society, and how everything is temporary, and that these issues are constant. Because even after the story shifted its focus to the new generation, the same problems still existed. We can never get rid of negativity, only learn to live above it.",
     "color": "#735b32",
@@ -34,14 +38,16 @@
   {
     "title": "The Odyssey",
     "author": "Homer",
+    "about": "A sequel to The Iliad, this epic follows the Greek hero Odysseus on his perilous, ten-year journey home to Ithaca after the fall of Troy. Facing wrathful gods, monsters, and temptations along the way, Odysseus relies on wit and endurance to survive, while back home his wife Penelope and son Telemachus fend off aggressive suitors trying to claim his throne.",
     "lens": "Structuralist & Psychoanalytic Lens",
     "analysis": "Another story that highlights loyalty, perserverance, and Family- something all of us Filipinos can relate to. It is really moving to see Penelope not losing hope, Telemachu's devotion, and Odysseus' perserverance and will to come home to his family.",
     "color": "#42494a",
     "cover": "images/odyssey.jpg"
   },
   {
-    "title": "Mahabharata",
+    "title": "The Mahabharata",
     "author": "Sage Vyasa",
+    "about": "One of the two major Sanskrit epics of ancient India, it chronicles a devastating dynastic civil war between two branches of a royal family—the Pandavas and the Kauravas—over the throne of Hastinapura. Interwoven with myths, genealogies, and moral debates (most famously the Bhagavad Gita), the epic explores duty (dharma), fate, loyalty, and the heavy moral costs of war.",
     "lens": "Psychoanalytic Lens",
     "analysis": "Jealousy is a powerful force that can destroy people. In this case, family and kingdom. It can start conflicts within families and can lead to family members hurting each other based out of loyalty. It also reminds us that victories are not easily gained. It can come with heavy costs and difficult choices.",
     "color": "#735b32",
@@ -50,6 +56,7 @@
   {
     "title": "Voice out of the Whirlwind",
     "author": "Ralph E. Hone",
+    "about": "After chapters of Job questioning why righteous people suffer, God finally responds directly from a storm. Rather than offering a neat explanation for human pain, God overwhelms Job with a series of rhetorical questions about the creation and governance of the cosmos—from laying the foundations of the earth to commanding the sea and feeding wild animals—illustrating the vast gap between divine wisdom and human understanding.",
     "lens": "Formalist & Psychoanalytic Lens",
     "analysis": "Perseverance and Faith are something we can all learn from Job especially these times. How Job stayed faithful and strong-willed is an inspiration to us Filipinos to keep going during the challenges sent our way.",
     "color": "#344c66",
